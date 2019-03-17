@@ -1,0 +1,194 @@
+﻿ul,li,p,article{
+	list-style: none; padding: 0; margin: 0;
+}
+li{
+	line-height: 30px;
+}
+body{
+	padding: 0px; margin: 0px; font-family: "微软雅黑";
+}
+/*总体布局*/
+._content{
+	width: 960px; margin: 0px auto; position: relative; padding: 0px;
+}
+/*头部*/
+._personalInfo{
+	text-align: center;
+	padding-top: 250px;
+	padding-bottom: 60px;
+}
+._personalInfo ._photo{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left:380px; top: 30px;
+	background: url(../img/ysyszbd.jpg) no-repeat 40px 20px;
+	border-radius: 100px;
+}
+._personalInfo ._name{
+	font-size: 28px; font-family: "微软雅黑"; font-weight: bold;
+}
+._personalInfo section p:nth-child(2) span{
+	font-size: 18px; font-weight: bold;
+}
+._personalInfo section p:nth-child(2) span:nth-child(1){
+	margin-right: 50px;
+}
+._personalInfo ul li{
+	list-style: none;
+	width: 210px; height: 40px; line-height: 40px;
+	margin-left: 20px; font-weight:bold;
+	float: left;
+}
+._personalInfo ul li:nth-child(1){
+	background: url(../img/gps.png) no-repeat 46px;
+	background-size: 30px;
+}
+._personalInfo ul li:nth-child(2){
+	background: url(../img/user.png) no-repeat 46px;
+	background-size: 30px;
+}
+._personalInfo ul li:nth-child(3){
+	width: 240px;
+	background: url(../img/info.png) no-repeat 0px;
+	background-size: 30px;
+}
+._personalInfo ul li:nth-child(4){
+	background: url(../img/mobil.png) no-repeat 14px;
+	background-size: 30px;
+}
+/*工作经历*/
+._specialtyInfo{}
+._projectExperience{
+	text-align: center;
+}
+._projectExperience div{
+	padding-top: 30px;
+	position: relative;
+}
+._projectExperience div:nth-child(1){
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+._projectExperience div p:first-child{
+	border: 3px solid black; border-radius: 10px; color: white; background-color: black;
+	position: absolute; top: 0px; left: 380px;
+	width: 200px; height: 30px; line-height: 20px;
+	text-align: center;
+	font-size: 18px; font-weight: bold;
+}
+._projectExperience div p:nth-child(2) span:first-child{
+	position:absolute; top: 18px; left: 220px; z-index: -1;
+	width: 140px; 
+	border-top:2px dotted black;
+}
+._projectExperience div p:nth-child(2) span:last-child{
+	position:absolute; top: 18px; right: 214px; z-index: -1;
+	width: 140px;
+	border-top:2px dotted black;
+}
+._projectExperience div table{
+	padding-top: 20px;
+	position:relative;
+}
+._projectExperience ._undergo{
+	width: 600px; 
+	margin: 0px auto;
+	padding-bottom: 10px;
+}
+._projectExperience ._undergo tr td:first-child{
+	float: left;
+	line-height: 24px;
+}
+._projectExperience ._workContent{
+	padding-top: 20px;
+}
+._projectExperience ._workContent li{
+	line-height: 24px;
+}
+/*职业技能*/
+._technology{
+	position: relative;
+	padding-top: 60px;
+	text-align: center;
+}
+._technology p:first-child,._projectInfo_p{
+	border: 3px solid black; border-radius: 10px; color: white; background-color: black;
+	position: absolute; top: 10px; left: 380px;
+	width: 200px; height: 30px; line-height: 20px;
+	text-align: center;
+	font-size: 18px; font-weight: bold;
+}
+._technology p:nth-child(2) span:first-child{
+	position:absolute; top: 28px; left: 220px; z-index: -1;
+	width: 140px; 
+	border-top:2px dotted black;
+}
+._technology p:nth-child(2) span:last-child{
+	position:absolute; top: 28px; right: 214px; z-index: -1;
+	width: 140px;
+	border-top:2px dotted black;
+}
+._technology ul li{
+	
+}
+/*项目经验*/
+._projectInfo{
+	position: relative;
+	padding-top: 60px;
+	text-align: center;
+}
+._projectInfo_p2 span:first-child{
+	position:absolute; top: 28px; left: 220px; z-index: -1;
+	width: 140px; 
+	border-top:2px dotted black;
+}
+._projectInfo_p2 span:last-child{
+	position:absolute; top: 28px; right: 214px; z-index: -1;
+	width: 140px;
+	border-top:2px dotted black;
+}
+/*项目经验-内容*/
+._projectInfo div{
+	text-align: left;
+	padding-left: 60px;
+	border-bottom: 1px solid gray;
+	padding-bottom: 20px;
+}
+._projectInfo div p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+._projectInfo div p:nth-child(1){
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+._projectInfo div p:nth-child(1),._projectInfo div p:nth-child(2),._projectInfo div p:nth-child(4),._projectInfo div p:nth-child(6){
+	font-size: 16px; font-weight: bold;
+}
+._projectInfo div p:nth-child(1) span:nth-child(3){
+	padding-left: 50px;
+	background: url(../img/date.png) no-repeat 20px;
+	background-size: 20px 24px;
+}
+/*无序列表*/
+._ulList li{
+	list-style: disc;
+	margin-left: 20px;
+}
+/*有序列表，按数字加括号划分*/
+._olList{
+	counter-reset:paracount 0 othercounter;
+}
+._olList li:before{
+	content:counter(paracount,lower-alpha) ". ";
+	counter-increment: paracount 1;
+}
+/*结束语*/
+._selfEsti{
+	padding-bottom: 160px;
+}
+._thinkes{
+	position: absolute; bottom: 0px; padding-top: 20px; height: 160px; width: 400px;
+	text-align: center; z-index: 10; left: 280px;
+}
